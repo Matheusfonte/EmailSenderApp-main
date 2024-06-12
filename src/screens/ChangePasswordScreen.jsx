@@ -5,8 +5,8 @@ import { Surface, Button, TextInput, Text } from "react-native-paper";
 import { style } from "../config/styles";
 
 export default function ChangePasswordScreen({ navigation }) {
-  const [email, setEmail] = useState("luccas@teste.com");
-  const [nome, setNome] = useState("Luccas");
+  const [email, setEmail] = useState("Matheus@teste.com");
+  const [nome, setNome] = useState("Matheus");
   const [senha, setSenha] = useState("");
   const [novaSenha, setNovaSenha] = useState("");
   const [error, setError] = useState("");

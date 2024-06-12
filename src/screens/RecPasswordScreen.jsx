@@ -5,7 +5,7 @@ import { Surface, Button, TextInput, Text } from "react-native-paper";
 import { style } from "../config/styles";
 
 export default function RecPasswordScreen({ navigation }) {
-  const [email, setEmail] = useState("luccas@teste.com");
+  const [email, setEmail] = useState("matheus@teste.com");
   const [code, setCode] = useState("");
   const [codeInput, setCodeInput] = useState("");
   const [error, setError] = useState("");

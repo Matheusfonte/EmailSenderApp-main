@@ -5,7 +5,7 @@ import { Surface, Button, TextInput } from "react-native-paper";
 import { style } from "../config/styles";
 
 export default function LoginScreen({navigation}) {
-  const [nome, setNome] = useState("Luccas");
+  const [nome, setNome] = useState("Matheus");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
